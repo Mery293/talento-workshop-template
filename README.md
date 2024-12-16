@@ -1,86 +1,132 @@
-# Template para los participantes del workshop
+# **Template para los Participantes del Workshop**
 
-## Pasos previos
+## **Pasos Previos**
 
-- Tener correo electronico.
-- En tu computador tener una foto profesional con el nombre foto.png
-- En tu computador tener un curriculum vitae con el nombre cv.png
+1. **Tener un correo electrónico activo.**
 
-## Como utilizar este template:
+   - Esto es necesario para crear una cuenta de GitHub y/o LinkedIn.
 
-1. Clickear en "Fork".
+2. **Contar con una foto profesional guardada como `foto.png`.**
 
-2. Clickear "Crear fork".
+   - Recomendación: Usa una foto formal con fondo neutro.  
+     [Guía para fotos profesionales.](https://orientacion-laboral.infojobs.net/10-consejos-foto-cv)
 
-3. Presionar enter cuando le pregunte algo.
+3. **Contar con tu currículum vitae en formato PDF guardado como `cv.pdf`.**
+   - Procura que sea actualizado y profesional.  
+     [Ejemplos.](https://www.canva.com/resumes/templates)
 
-4. Una vez en el repositorio clickear la tecla "." en el teclado.
+## **Cómo Utilizar este Template**
 
-5. Soltar el cv.pdf y foto.png en la carpeta public en el panel izquierdo.
+### **1. Crear un Fork del Repositorio**
 
-6. En otra pestaña pegar este prompt en chat gpt y volver a este documento una vez termines.
+1. Haz clic en el botón **"Fork"** en la parte superior derecha del repositorio.
 
-```
-Eres un estudiante de ingeniería de tics, haciendo fork de un template para una pagina personal, Hazme preguntas, una por una hasta completar los siguientes campos, en caso de las listas, si el usuario solo te da uno, síguele preguntándo hasta que termine.
+   > [¿Qué es un Fork?](https://docs.github.com/es/get-started/quickstart/fork-a-repo)
 
-const personalInfo = {
-  fistName: "Brayan",
-  lastName: "Montaño",
-  about:
-    "Soy un desarrollador de software especializado en javascript y react.",
-  birthDate: "1999-08-29",
-  email: "brayanmbeltre@gmail.com",
-  github: "https://github.com/brayanMBeltre",
-};
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-const skills = ["JavaScript", "React", "Node.js"];
+2. Luego, selecciona la opción **"Crear fork"**.
 
-const experiences = [
-  {
-    dates: "2021",
-    role: "Frontend Developer",
-    company: "OGTIC",
-    description:
-      "Trabajé en proyectos como Becas.gob.do, Gob.do, 311, entre otros, realizando tareas de desarrollo frontend.",
-    logo: "https://ogtic.gob.do/_next/image?url=https%3A%2F%2Fwp.ogtic.gob.do%2Fwp-content%2Fuploads%2F2024%2F01%2Flogo.png&w=3840&q=75",
-  },
-];
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-const projects = [
-  {
-    name: "Dynamic portfolio creation",
-    description:
-      "Crear un portafolio genérico a partir de un JSON para estudiantes del proyecto 'Semillero Digital' impartido en la OGTIC.",
-    image:
-      "https://ogtic.gob.do/_next/image?url=https%3A%2F%2Fwp.ogtic.gob.do%2Fwp-content%2Fuploads%2F2024%2F01%2Flogo.png&w=3840&q=75",
-    url: "ogtic.gob.do",
-  },
-];
+3. Presiona **Enter** si aparece una ventana de confirmación.
 
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-Asegurándote de retornarme al final de las preguntas, ese json en el mismo formato dado, simplemente que con mi información, siempre hablame en español, pero retorna los resultados en ingles, tammbien me gustaria que las preguntas sean simples y en caso de que puedas abundar un poco mas en mis respuestas lo hagas como por ejemplo en el about.
-```
+---
 
-7. pegar el resultado en el archivo llamado CONFIG.json.
+### **2. Abrir el Editor de Código en GitHub**
 
-8. clickear la version de controles en el panel izquierdo.
+1. En el repositorio recién creado, presiona la tecla **"." (punto)** en tu teclado.
 
-9. colocar un mensaje y presionar subir cambios.
+   - Esto abrirá el editor de código en línea de GitHub.  
+     [¿Qué es el editor en línea de GitHub?](https://github.dev/)
 
-## Hacer despliegue en Vercel
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-1. En google ir a https://vercel.com
+---
 
-2. Click en "Start deploying"
+### **3. Subir Archivos Necesarios**
 
-3. iniciar session con github y aceptar los mensajes que aparezcan.
+1. Localiza la carpeta `public` en el panel izquierdo del editor.
 
-4. Luego presionar instalar y aceptar los mensajes que aparezcan.
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-5. Seleccionar el proyecto creado anteriormente y presionar "import".
+2. Arrastra y suelta los archivos `cv.pdf` y `foto.png` en esta carpeta.
 
-6. Presionar el boton que dice "Deploy" y esperar a que termine el proceso.
+   - Revisa que los nombres sean exactamente como se indican para evitar errores.
 
-7. Ir a la url recientemente creada.
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
 
-### inspired on https://github.com/ccbikai/astro-aria
+---
+
+### **4. Personalizar la Configuración con ChatGPT**
+
+1. Abre este [Prompt](https://chatgpt.com/share/6760b3ea-fc94-8003-b51b-6058631190d1) en una nueva pestaña.
+
+2. Responde todas las preguntas y copia el resultado generado.
+
+3. Regresa al editor y pega el resultado en el archivo `CONFIG.json`.
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+---
+
+### **5. Subir Cambios al Repositorio**
+
+1. En el panel izquierdo, haz clic en la sección **"Source Control"** (icono de rama).
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+2. Escribe un mensaje claro sobre los cambios realizados, por ejemplo: _"Añadí mi configuración."_
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+3. Presiona el botón **"Commit"** y luego **"Push"** para subir los cambios.  
+   [¿Qué es un commit en Git?](https://git-scm.com/docs/git-commit)
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+---
+
+## **Hacer Despliegue en Vercel**
+
+1. Ve a [https://vercel.com](https://vercel.com) y haz clic en **"Start Deploying"**.
+
+   - [Guía oficial de Vercel.](https://vercel.com/docs)
+
+     ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+2. Inicia sesión con tu cuenta de GitHub y acepta las solicitudes de acceso.
+
+3. Selecciona tu repositorio y presiona el botón **"Import"**.
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+4. Haz clic en **"Deploy"** y espera a que termine el proceso.
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+5. Una vez completado, copia la URL generada y verifica que tu página está activa.
+
+   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+
+---
+
+## **Enlaces Adicionales**
+
+1. **Cómo configurar un dominio personalizado en Vercel:**
+   - [Guía oficial.](https://vercel.com/docs/concepts/projects/domains)
+2. **Más templates para proyectos:**
+   - [DevDojo Templates.](https://static.devdojo.com/templates/)
+3. **Crea un perfil personalizado de GitHub:**
+   - [Personalización de perfil.](https://zzetao.github.io/awesome-github-profile/)
+
+## **Propósito**
+
+El objetivo de este workshop es que cada participante pueda crear y publicar un portafolio personal en la web utilizando herramientas modernas y un flujo de trabajo básico con GitHub y Vercel.
+
+## **Agradecimientos**
+
+- Template tomado de [https://github.com/ccbikai/astro-aria](https://github.com/ccbikai/astro-aria)
+- Prompt de ChatGPT, ideas y consejos por [Samuel Piña](https://github.com/Samuelpinap)
