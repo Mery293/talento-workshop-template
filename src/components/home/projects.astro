@@ -19,6 +19,8 @@ import Project from "../project.astro";
   >
     {
       projects.map((project) => {
+        if (project.example) return;
+
         return (
           <Project
             name={project.name}

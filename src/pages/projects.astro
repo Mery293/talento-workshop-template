@@ -17,6 +17,8 @@ import Layout from "../layouts/main.astro";
     >
       {
         projects.map((project) => {
+          if (project.example) return;
+
           return (
             <Project
               name={project.name}

@@ -27,7 +27,7 @@ import Layout from "../layouts/main.astro";
 
         <Button
           text="Download CV"
-          link={personalInfo.cv}
+          link={"/cv.pdf"}
           outline
           download={`cv-${personalInfo.firstName}.pdf`}
         />
@@ -50,7 +50,7 @@ import Layout from "../layouts/main.astro";
           </div>
           <div class="relative z-30 px-10">
             <img
-              src={personalInfo.avatar}
+              src={"/foto.png"}
               loading="eager"
               decoding="auto"
               class="relative z-30 w-[400px] h-full mx-auto dark:-translate-y-0.5"
@@ -97,7 +97,11 @@ import Layout from "../layouts/main.astro";
                 {error ? (
                   <div class="font-bold uppercase text-xl">{initial}</div>
                 ) : (
-                  <img src={img.url} alt={skill} class="w-8 h-8 rounded-full" />
+                  <img
+                    src={img.url}
+                    alt={skill}
+                    class="w-8 h-8 rounded-full object-contain"
+                  />
                 )}
               </div>
 
@@ -121,6 +125,8 @@ import Layout from "../layouts/main.astro";
     <div class="px-5 py-10">
       {
         experiences.map((experience) => {
+          if (experience.example) return;
+
           return (
             <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <AboutExperience

@@ -3,7 +3,7 @@
 ## Pasos previos
 
 - Tener correo electronico.
-- Foto profesional en formato png o jpg.
+- Foto profesional en formato png.
 - Tener curriculum vitae en formato pdf.
 
 ## Como utilizar este template:
@@ -16,50 +16,49 @@
 
 4. Una vez en el repositorio clickear la tecla "." en el teclado.
 
-5. En otra pestana pegar este prompt en chat gpt y volver a este documento una vez termines.
+5. Renombrar la foto a foto.png dependiendo del formato actual
+
+6. Renombrar el documento de tu curriculum a cv.pdf
+
+7. En otra pestana pegar este prompt en chat gpt y volver a este documento una vez termines.
 
 ```
 Eres un estudiante de ingeniería de tics, haciendo fork de un template para una pagina personal, Hazme preguntas, una por una hasta completar los siguientes campos, en caso de las listas, si el usuario solo te da uno, síguele preguntándo hasta que termine.
 
 {
   "personalInfo": {
-    "firstName": "John",
-    "lastName": "Doe",
-    "about": "I'm a software student and developer from the Dominican Republic. I'm passionate about web development and design. I'm always looking for new opportunities to learn and grow.",
-    "birthDate": "29-08-1999",
-    "email": "john@doe.com",
-    "github": "https://github.com/johndoe"
+    "firstName": "Brayan",
+    "lastName": "Montaño",
+    "about": "Soy un desarrollador de software especializado en javascript y react.",
+    "birthDate": "1999-08-29",
+    "email": "brayanmbeltre@gmail.com",
+    "github": "https://github.com/brayanMBeltre"
   },
   "skills": [
-    "JS",
+    "Javascript",
     "React",
-    "Node",
-    "HTML",
-    "CSS",
-    "SASS",
-    "Bootstrap"
+    "Graphql"
   ],
   "experiences": [
     {
-      "dates": "December 2024",
-      "role": "Participant",
-      "company": "Oficina Gubernamental de la Tegnología de la Información y Comunicaciones",
-      "description": "I participated in the 2024 'Semillero de talentos' program. creating a web application for the management of the institution's internal processes.",
-      "logo": "/assets/images/experiences/didi.ico"
+      "dates": "2021",
+      "role": "Frontend Developer",
+      "company": "OGTIC",
+      "description": "Trabajé en proyectos como Becas.gob.do, Gob.do, 311, entre otros, realizando tareas de desarrollo frontend.",
+      "logo": "https://ogtic.gob.do/_next/image?url=https%3A%2F%2Fwp.ogtic.gob.do%2Fwp-content%2Fuploads%2F2024%2F01%2Flogo.png&w=3840&q=75"
     }
   ],
   "projects": [
     {
-      "name": "Personal website",
-      "description": "This website was created to showcase my skills and projects.",
-      "image": "/assets/images/projects/tempmail.best.png",
-      "url": "https://github.com/johndoe"
+      "name": "Dynamic portfolio creation",
+      "description": "Crear un portafolio genérico a partir de un JSON para estudiantes del proyecto 'Semillero Digital' impartido en la OGTIC.",
+      "image": "https://ogtic.gob.do/_next/image?url=https%3A%2F%2Fwp.ogtic.gob.do%2Fwp-content%2Fuploads%2F2024%2F01%2Flogo.png&w=3840&q=75",
+      "url": "ogtic.gob.do"
     }
   ]
 }
 
-
-Asegurándote de retornarme al final de las preguntas, ese json en el mismo formato dado, simplemente que con mi información, siempre hablame en español, tammbien me gustaria que las preguntas sean simples y en caso de que puedas abundar un poco mas en mis respuestas lo hagas como por ejemplo en el about.
+Asegurándote de retornarme al final de las preguntas, ese json en el mismo formato dado, simplemente que con mi información, siempre hablame en español, pero retorna los resultados en ingles, tammbien me gustaria que las preguntas sean simples y en caso de que puedas abundar un poco mas en mis respuestas lo hagas como por ejemplo en el about.
 ```
 
 7. pegar el resultado en el archivo llamado CONFIG.json.
