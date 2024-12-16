@@ -75,7 +75,7 @@ Asegurándote de retornarme al final de las preguntas, ese json en el mismo form
 
 4. Luego presionar instalar y aceptar los mensajes que aparezcan.
 
-5. Seleccionar el proyecto creado anteriormente y presionar realizar despligue.
+5. Seleccionar el proyecto creado anteriormente y presionar "import".
 
 6. Presionar el boton que dice "Deploy" y esperar a que termine el proceso.
 
