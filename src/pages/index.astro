@@ -1,4 +1,5 @@
 ---
+import { Image, getImage } from "astro:assets";
 import AboutExperience from "../components/about-experience.astro";
 import Button from "../components/button.astro";
 import Projects from "../components/home/projects.astro";
@@ -7,7 +8,7 @@ import Skills from "../components/home/skills.astro";
 import { getConfigFile } from "../data";
 import Layout from "../layouts/main.astro";
 
-const { personalInfo, skills, experiences,projects } = await getConfigFile();
+const { personalInfo, skills, experiences, projects } = await getConfigFile();
 ---
 
 <Layout title={personalInfo.firstName}>
@@ -70,54 +71,58 @@ const { personalInfo, skills, experiences,projects } = await getConfigFile();
     </div>
   </div>
 
-  {skills.length > 0 && (
-  <Separator text="Some of my skills" />
+  {
+    skills.length > 0 && (
+      <>
+        <Separator text="Some of my skills" />
+        <section class="max-w-4xl mx-auto px-7 lg:px-0">
+          <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">
+            My Skills
+          </h2>
 
-      <section class="max-w-4xl mx-auto px-7 lg:px-0">
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">
-          My Skills
-        </h2>
-
-        <div class="py-10">
-
-        <Skills />
-        </div>
-      </section>
+          <div class="py-10">
+            <Skills />
+          </div>
+        </section>
+      </>
     )
   }
 
-{experiences.length > 0 && (
-<Separator text="Some of my experiences" />
-  <section class="max-w-4xl mx-auto px-7 lg:px-0">
-    <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
-    >
-      Experience
-    </h2>
-    
-    <div class="px-5 py-10">
-      {
-        experiences.map((experience) => {
-          return (
-            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
-              <AboutExperience
-                dates={experience.dates}
-                role={experience.role}
-                company={experience.company}
-                description={experience.description}
-                logo={experience.logo}
-              />
-            </div>
-          );
-        })
-      }
-    </div>
-  </section>
-)}
+  {
+    experiences.length > 0 && (
+      <>
+        <Separator text="Some of my experiences" />
+        <section class="max-w-4xl mx-auto px-7 lg:px-0">
+          <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">
+            Experience
+          </h2>
 
+          <div class="px-5 py-10">
+            {experiences.map((experience) => {
+              return (
+                <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      </>
+    )
+  }
 
-{projects.length > 0 && (
-<Separator text="Check out my projects" />
-  <Projects />
-)}
+  {
+    projects.length > 0 && (
+      <>
+        <Separator text="Check out my projects" />
+        <Projects />
+      </>
+    )
+  }
 </Layout>

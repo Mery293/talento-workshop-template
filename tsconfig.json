@@ -1,6 +1,12 @@
 {
   "extends": "astro/tsconfigs/base",
+  "include": [".astro/types.d.ts", "**/*", ".prettierrc.mjs"],
+  "exclude": ["dist"],
   "compilerOptions": {
-    "module": "ESNext"
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"]
+    }
   }
 }

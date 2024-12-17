@@ -8,11 +8,7 @@
     "github": "https://github.com/brayanMBeltre",
     "linkedin": "https://www.linkedin.com/in/brayanmbeltre/"
   },
-  "skills": [
-    "Javascript",
-    "React",
-    "Graphql"
-  ],
+  "skills": ["Javascript", "React", "Graphql"],
   "experiences": [
     {
       "dates": "2021",
