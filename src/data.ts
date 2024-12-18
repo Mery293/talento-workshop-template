@@ -38,7 +38,7 @@ export const getConfigFile = async () => {
 
 		return data;
 	} catch (error) {
-		console.log("Error loading the config file");
+		console.error("Error loading the config file", error);
 
 		return exampleData as Data;
 	}
