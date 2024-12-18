@@ -23,15 +23,13 @@
 
    > [¿Qué es un Fork?](https://docs.github.com/es/get-started/quickstart/fork-a-repo)
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+   ![Forkear repositorio](public/tutorial/github-fork-repository.png)
 
 2. Luego, selecciona la opción **"Crear fork"**.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+   ![Crear Fork](public/tutorial/github-create-fork.png)
 
-3. Presiona **Enter** si aparece una ventana de confirmación.
-
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+3. Esperar a que temrine el proceso.
 
 ---
 
@@ -42,7 +40,7 @@
    - Esto abrirá el editor de código en línea de GitHub.  
      [¿Qué es el editor en línea de GitHub?](https://github.dev/)
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+   ![Github online editor](public/tutorial/github-editor-initial-login.png)
 
 ---
 
@@ -50,13 +48,13 @@
 
 1. Localiza la carpeta `public` en el panel izquierdo del editor.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+   ![Public folder](public/tutorial/github-editor-public-folder-location.jpeg)
 
 2. Arrastra y suelta los archivos `cv.pdf` y `foto.png` en esta carpeta.
 
    - Revisa que los nombres sean exactamente como se indican para evitar errores.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+   ![Public folder files](public/tutorial/github-editor-public-folder-files.jpeg)
 
 ---
 
@@ -66,9 +64,11 @@
 
 2. Responde todas las preguntas y copia el resultado generado.
 
+![Copy](public/tutorial/chatgpt-copy-and-paste.png)
+
 3. Regresa al editor y pega el resultado en el archivo `CONFIG.json`.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Config file](public/tutorial/github-editor-config-file.png)
 
 ---
 
@@ -76,16 +76,16 @@
 
 1. En el panel izquierdo, haz clic en la sección **"Source Control"** (icono de rama).
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Source control](public/tutorial/github-editor-source-control.jpeg)
 
 2. Escribe un mensaje claro sobre los cambios realizados, por ejemplo: _"Añadí mi configuración."_
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Commit gessage](public/tutorial/github-editor-commit.jpeg)
 
 3. Presiona el botón **"Commit"** y luego **"Push"** para subir los cambios.  
    [¿Qué es un commit en Git?](https://git-scm.com/docs/git-commit)
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Push](public/tutorial/github-editor-commit-button.jpeg)
 
 ---
 
@@ -95,21 +95,29 @@
 
    - [Guía oficial de Vercel.](https://vercel.com/docs)
 
-     ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Vercel](public/tutorial/vercel-website.png)
 
 2. Inicia sesión con tu cuenta de GitHub y acepta las solicitudes de acceso.
 
+![Vercel + github](public/tutorial/vercel-login-with-github.png)
+
+![Vercel + github permissions](public/tutorial/vercel-github-permissions.png)
+
+3. Instalar Gibhub
+
+![Install github](public/tutorial/vercel-install-github.png)
+
 3. Selecciona tu repositorio y presiona el botón **"Import"**.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Import repository](public/tutorial/vercel-import-repository.png)
 
 4. Haz clic en **"Deploy"** y espera a que termine el proceso.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Vercel Deploy](public/tutorial/vercel-deployment.png)
 
 5. Una vez completado, copia la URL generada y verifica que tu página está activa.
 
-   ![Foto](https://via.placeholder.com/600x400?text=Placeholder)
+![Finish](public/tutorial/vercel-successfull-deployment.png)
 
 ---
 
