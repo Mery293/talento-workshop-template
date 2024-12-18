@@ -23,19 +23,23 @@
 
    > [¿Qué es un Fork?](https://docs.github.com/es/get-started/quickstart/fork-a-repo)
 
-   ![Forkear repositorio](public/tutorial/github-fork-repository.png)
+![Forkear repositorio](public/tutorial/github-fork-repository.png)
 
 2. Luego, selecciona la opción **"Crear fork"**.
 
-   ![Crear Fork](public/tutorial/github-create-fork.png)
+![Crear Fork](public/tutorial/github-create-fork.png)
 
 3. Esperar a que temrine el proceso.
 
----
+![Wait](public/tutorial/github-wait-fork.jpeg)
+
+4. Una vez terminado el proceso continuar con el siguiente paso.
+
+## ![Success fork](public/tutorial/github-success-fork.jpeg)
 
 ### **2. Abrir el Editor de Código en GitHub**
 
-1. En el repositorio recién creado, presiona la tecla **"." (punto)** en tu teclado.
+1. Para abrir el editor ve al En el repositorio recién creado ypresiona la tecla **"." (punto)** en tu teclado.
 
    - Esto abrirá el editor de código en línea de GitHub.  
      [¿Qué es el editor en línea de GitHub?](https://github.dev/)
