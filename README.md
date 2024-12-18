@@ -43,7 +43,7 @@
 
    - Esto abrirá el editor de código en línea de GitHub.
 
-   ![Github online editor](public/tutorial/github-editor-initial-login.png)
+![Github online editor](public/tutorial/github-editor-initial-login.png)
 
 ---
 
@@ -51,13 +51,13 @@
 
 1. Localiza la carpeta `public` en el panel izquierdo del editor.
 
-   ![Public folder](public/tutorial/github-editor-public-folder-location.jpeg)
+![Public folder](public/tutorial/github-editor-public-folder-location.jpeg)
 
 2. Arrastra y suelta los archivos `cv.pdf` y `foto.png` en esta carpeta.
 
    - Revisa que los nombres sean exactamente como se indican para evitar errores.
 
-   ![Public folder files](public/tutorial/github-editor-public-folder-files.jpeg)
+![Public folder files](public/tutorial/github-editor-public-folder-files.jpeg)
 
 ---
 
@@ -85,7 +85,11 @@
 
 ![Commit gessage](public/tutorial/github-editor-commit.jpeg)
 
-3. Presiona el botón **"Commit"** y luego **"Push"** para subir los cambios.  
+3. Quizas te aparezca un mensaje de confirmar cambios. Puedes cerrar este mensaje presionando el icono de X.
+
+![Confirm dialog](public/tutorial/github-editor-confirm-dialog.png)
+
+3. Presiona el botón **"Confirmar y enviar cambios"** para subir los cambios.  
    [¿Qué es un commit en Git?](https://git-scm.com/docs/git-commit)
 
 ![Push](public/tutorial/github-editor-commit-button.jpeg)
@@ -104,11 +108,11 @@
 
 ![Vercel + github](public/tutorial/vercel-login-with-github.png)
 
-![Vercel + github permissions](public/tutorial/vercel-github-permissions.png)
-
 3. Instalar Gibhub
 
 ![Install github](public/tutorial/vercel-install-github.png)
+
+![Vercel + github permissions](public/tutorial/vercel-github-permissions.png)
 
 3. Selecciona tu repositorio y presiona el botón **"Import"**.
 
