@@ -1,0 +1,33 @@
+{
+    "personalInfo": {
+      "firstName": "Yuli",
+      "lastName": "Sierra",
+      "about": "Soy un profesional con experiencia en la implementación y migración de sistemas tecnológicos, con un enfoque en la mejora de procesos de calidad.",
+      "birthDate": "1994-10-06",
+      "email": "ymaribels@gmail.com",
+      "github": "https://github.com/Mery293"
+    },
+    "skills": [
+      "Laravel"
+    ],
+    "experiences": [
+      {
+        "dates": "2017",
+        "role": "Subgerente",
+        "company": "Banco Popular",
+        "description": "Monitoreo y seguimiento de calidad en los procesos.",
+        "logo": "https://example.com/logo.png",
+        "example": true
+      }
+    ],
+    "projects": [
+      {
+        "name": "Implementación y migración a ICS",
+        "description": "Migrar sistemas de cobros a un sistema centralizado.",
+        "image": "https://example.com/project-logo.png",
+        "url": "https://example.com",
+        "example": true
+      }
+    ]
+  }
+  
