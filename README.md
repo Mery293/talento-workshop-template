@@ -41,8 +41,7 @@
 
 1. Para abrir el editor ve al En el repositorio recién creado ypresiona la tecla **"." (punto)** en tu teclado.
 
-   - Esto abrirá el editor de código en línea de GitHub.  
-     [¿Qué es el editor en línea de GitHub?](https://github.dev/)
+   - Esto abrirá el editor de código en línea de GitHub.
 
    ![Github online editor](public/tutorial/github-editor-initial-login.png)
 
